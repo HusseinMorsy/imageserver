@@ -1,0 +1,9 @@
+%h1 Willkommen zur Bilderverwaltung
+
+%p
+  %a(href="/new") Neues Bild hinzufügen
+%ul
+  - for image in @images do
+    %li
+      %img(src="/#{image.filename}" width="80" height="80" title="#{image.filename}")
+      = image.filename

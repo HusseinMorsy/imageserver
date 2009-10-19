@@ -1,0 +1,10 @@
+%h2 Neues Bild hinzufuegen
+
+%form(action="/new" method="post" enctype="multipart/form-data")
+  Name:
+  %input(type='input' name='name')
+  %br
+  Datei:
+  %input(type='file' name='image')
+  %br
+  %input(type="submit" value="Speichern")

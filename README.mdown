@@ -1,0 +1,9 @@
+Installation
+------------
+
+    sinatra dm-core do_sqlite3
+    
+Sync
+---
+
+rsync -av --exclude "imageserver.sqlite3" --exclude "public" . hussein@neo.morsystem.com:/srv/www/imageserver/
