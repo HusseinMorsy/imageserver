@@ -1,0 +1,47 @@
+--- 
+dependencies: 
+  haml: 
+    group: 
+    - :default
+    version: ">= 0"
+  dm-core: 
+    group: 
+    - :default
+    version: ">= 0"
+  sinatra: 
+    group: 
+    - :default
+    version: ">= 0"
+  sinatra-r18n: 
+    group: 
+    - :default
+    version: ">= 0"
+  do_sqlite3: 
+    group: 
+    - :default
+    version: ">= 0"
+specs: 
+- addressable: 
+    version: 2.1.2
+- data_objects: 
+    version: 0.10.1
+- extlib: 
+    version: 0.9.14
+- dm-core: 
+    version: 0.10.2
+- do_sqlite3: 
+    version: 0.10.1.1
+- haml: 
+    version: 3.0.4
+- r18n-core: 
+    version: 0.4.5
+- rack: 
+    version: 1.1.0
+- sinatra: 
+    version: "1.0"
+- sinatra-r18n: 
+    version: 0.4.5
+hash: 781902516c1a50d6c94f0081fed8b46912665ad8
+sources: 
+- Rubygems: 
+    uri: http://rubygems.org
