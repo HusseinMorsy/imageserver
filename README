@@ -1,0 +1,6 @@
+Installation
+------------
+
+run on server:
+
+bundle install --deployment
