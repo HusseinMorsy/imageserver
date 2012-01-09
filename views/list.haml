@@ -7,3 +7,4 @@
     %li
       %img(src="/#{image.filename}" width="80" height="80" title="#{image.filename}")
       = image.filename
+      %a(href="/destroy?name=#{image.name}") delete
